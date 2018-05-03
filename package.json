@@ -1,0 +1,25 @@
+{
+  "name": "express-finale-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node example.js",
+    "test": "node example.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "finale-rest": "^0.1.5",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6"
+  },
+  "devDependencies": {
+    "assertivity": "^1.0.3",
+    "async": "^2.6.0",
+    "execute-command-sync": "^1.0.2",
+    "request": "^2.85.0"
+  }
+}
