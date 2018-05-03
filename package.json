@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm install && node example.js",
-    "test": "node example.spec.js"
+    "test": "npm install && node example.spec.js"
   },
   "author": "",
   "license": "ISC",
